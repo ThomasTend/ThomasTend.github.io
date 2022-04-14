@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/thomas-tend.github.io",
+            "outputPath": "thomas-tend.github.io",
             "index": "index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
