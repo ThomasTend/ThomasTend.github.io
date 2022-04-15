@@ -11,7 +11,8 @@ export const routes: Routes = [
   {
       path: 'research',
       component: ResearchComponent
-  }
+  },
+  { path: '',   redirectTo: 'home', pathMatch: 'full' }
 ];
 
 @NgModule({
